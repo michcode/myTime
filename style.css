@@ -1,0 +1,209 @@
+.header{
+  font-family: Verdana;
+  font-size:14px;
+  font-weight:bold;
+  display:flex;
+  /*align-items: center;*/
+  border-bottom: 1px solid black;
+  width:100%;
+  position:fixed;
+  z-index: 3;
+  background-color: white;
+  top: 0px;
+  padding:10px 10px 10px 0;
+}
+
+.logo{
+  color:MediumAquamarine;
+  padding-left: 30px;
+  display:flex;
+  align-items: center;
+  width:604px;
+  left:0;
+/*  position:fixed;*/
+  /*border:1px solid black;*/
+  
+}
+
+.logo span{
+    padding-left: 10px;
+}
+nav{
+    display:flex;
+    /*justify-content:flex-end;*/
+/*    position:fixed;*/
+}
+nav span{
+  /*display:inline-block;*/
+  padding:20px 10px;  
+}
+
+a{
+      color:black;
+}
+.container{
+    display:inline-flex;
+    /*border:1px solid black;*/
+    justify-content: space-between;
+    margin-top: 110px;
+    z-index: 2;
+    position:relative;
+    overflow: scroll;
+    
+    font-family: Georgia;
+    font-size: 17px;
+    color:black;
+    
+}
+
+.column.large{
+    display:flex;
+    flex-direction: column;
+    width:630px;
+    margin-right:15px ;
+    /*border:1px solid black;*/
+    
+}
+
+.mainIamge{
+    display:flex;
+    background-image: url("./resources/img-story-main.png");
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    /*margin-top: 30px;*/
+    
+}
+.mainImageContent{
+    /*height:300px;*/
+    margin:0;
+    font-family: Georgia;
+    font-weight:bold;
+    font-size:40px;
+    color: #FFF;
+    position:relative;
+    /*width:68%;*/
+    
+}
+
+.column.medium{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /*border:1px solid black;*/
+}
+
+.column.small{
+    display:flex;
+    flex-direction: column;
+    width:240px;
+    margin-left: 15px;
+    
+    /*border:1px solid black;*/
+}
+
+.imageOfFall{
+    display:flex;
+    background-image:url("./resources/img-story-2.png");
+    background-size: auto;
+    background-position: center;
+    justify-content: center;
+    margin-right: 15px;
+    width:300px;
+}
+.image.content{
+    display:flex;
+    height:300px;
+    width:100%;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size:30px;
+    color:white;
+    text-align: center;
+    
+}
+
+.imageOfCamera{
+    display:flex;
+    background-image:url("./resources/img-story-3.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    /*margin-left: 15px;*/
+    width:300px;
+}
+
+.imageOfCat{
+    display:flex;
+    background-image:url("./resources/img-story-1.png");
+    background-size: auto;
+    background-position: center;
+    justify-content: center;
+}
+
+.left.content{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.content.column{
+    display:flex;
+    flex-direction: column;
+    width:300px;    
+}
+
+h2{
+    font-size:30px;
+}
+
+h3{
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.column.small li{
+    display:flex;
+    background-color: whitesmoke;
+    font-family:Verdana;
+    font-size:12px;
+    color:DimGray;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.footer{
+    display:flex;
+    background-color:mediumaquamarine;
+    margin:auto;
+    font-family:Verdana;
+    font-size:12px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:45px;
+    height: 325px;
+    color:black;
+}
+.info{
+    display: flex;
+    height:35px;
+}
+
+.footer nav{
+    display: inline-block;
+    padding-left: 25px;
+}
+.title{
+    display: flex;
+    font-family:Georgia;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    padding-right:25px;
+    border-right:2px solid white;
+    height:19px;
+}
